@@ -1,0 +1,6 @@
+user -> browser
+Enters the text in the textbox and click on save
+
+browser -> server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+                   Content-type: application/json
+                   Content: {content: "submit", date: "2021-06-11T05:48:47.178Z"}
